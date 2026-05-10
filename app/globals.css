@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #0b0b0d;
+  color: #e8e8ee;
+  height: 100%;
+}
+
+body {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #2a2a32;
+  border-radius: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.prose-invert-tight p {
+  margin: 0 0 0.5rem;
+}
+.prose-invert-tight ul {
+  margin: 0.25rem 0 0.5rem 1.25rem;
+  list-style: disc;
+}
+.prose-invert-tight ol {
+  margin: 0.25rem 0 0.5rem 1.25rem;
+  list-style: decimal;
+}
+.prose-invert-tight code {
+  background: #1f1f24;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+.prose-invert-tight pre {
+  background: #15151a;
+  border: 1px solid #1f1f24;
+  padding: 0.75rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 0.5rem 0;
+}
+.prose-invert-tight pre code {
+  background: transparent;
+  padding: 0;
+}
+.prose-invert-tight a {
+  color: #a5b4fc;
+  text-decoration: underline;
+}
+.prose-invert-tight strong {
+  color: #fff;
+}

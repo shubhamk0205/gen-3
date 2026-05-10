@@ -1,0 +1,36 @@
+{
+  "name": "notebooklm-rag",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.41",
+    "@langchain/core": "^0.3.42",
+    "@langchain/openai": "^0.3.17",
+    "@langchain/qdrant": "^0.1.1",
+    "@langchain/textsplitters": "^0.1.0",
+    "langchain": "^0.3.19",
+    "next": "15.1.6",
+    "openai": "^4.83.0",
+    "pdf-parse": "1.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.3",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}
